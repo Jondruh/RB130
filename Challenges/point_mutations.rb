@@ -48,7 +48,7 @@ class DNA
 
   def hamming_distance(other_dna)
     hamm_distance = 0
-    
+        
     smaller_dna, larger_dna = [@dna, other_dna].sort_by(&:size) 
 
     smaller_dna.each_char.with_index do |ele, ind|
