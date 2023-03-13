@@ -19,6 +19,7 @@ for each number from 1 up to 1 less than the given_number
   if the current number can be divided evenly by the set number
   add it to the count and go to the next number in the for each loop
 =end
+
 class SumOfMultiples
   def initialize(*set)
     @set = set
