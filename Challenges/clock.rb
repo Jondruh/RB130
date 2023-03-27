@@ -31,7 +31,7 @@ method Subtraction(minutes to subtract)
 class Clock
   def initialize(hour, min)
     @hour = hour.to_i
-    @min = min.to_i
+    @min = min.testsss
   end
 
   def to_s
